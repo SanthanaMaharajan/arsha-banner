@@ -1,0 +1,83 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:"Jost", sans-serif;
+}
+#banner-section{
+	margin-top:30px;
+	height:70vh;
+	width:100%;
+	background-color:rgb(55,81,126);
+}
+.banner-container{
+	width:85%;
+	margin:auto;
+	display:flex;
+}
+.banner-cnt{
+	width:50%;
+	padding-top:3.5rem;
+}
+.banner-img{
+	width:50%;
+	padding:20px;
+}
+.banner-img img{
+	width:100%;
+	animation:up-down 5s ease infinite;
+}
+.banner-txt h1{
+	font-size:48px;
+	color:#ffff;
+}
+.banner-txt h2{
+	font-size:22px;
+	color:#afb9cb;
+}
+.banner-txt h1, .banner-txt h2{
+	text-align:left;
+	line-height:1.2;
+	padding:10px;	
+}
+.banner-btn{
+	padding-top:2.5rem;
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+.banner-btn a{
+	text-decoration:none;
+	color:#ffff;
+	border-radius:20px;
+}
+#btn-1{
+	background-color:rgb(71,178,228);
+	padding:0.5rem 2rem;
+	font-size:18px;
+}
+#btn-1:hover{
+	background-color:rgb(39,153,206);
+}
+#btn-2{
+	padding:10px;
+	font-size:24px;
+}
+#btn-2 i:hover{
+	color:rgb(39,153,206);
+}
+#btn-2 i{
+	font-size:2rem;
+	padding:10px;
+}
+@keyframes up-down {
+	0%{
+		transform:translate(0,20px);
+	}
+	50%{
+		transform:translate(0,-10px);
+	}
+	100%{
+		transform:translate(0,20px);
+	}
+}
